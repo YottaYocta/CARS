@@ -1,0 +1,175 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+body {
+	font-family: 'Comfortaa', cursive;
+	background-image: url('./img/background.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+nav {
+	height: 100%;
+	width: 100%;
+}
+header {
+	width: 90%;
+	height: 10vh;
+	margin: 10vh auto 10vh auto;
+}
+.nav-titles {
+	background-color: transparent;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100%;
+	list-style: none;
+}
+.nav-title {
+	background-color: rgb(180,200,256);	
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	transition: 0.5s;
+	transition-property: background, box-shadow, transform;
+}
+.nav-title:hover {
+	background-color: rgb(200,220,256);
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	transform: translate(-10px, -10px);
+	box-shadow: 10px 10px 10px black;
+	transition: 0.5s;
+	transition-property: background, box-shadow, transform;
+}
+.nav-titles a {
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	
+}
+.heading {
+	width: 90%;
+	background-color: rgb(180,200,256);
+	text-align: center;
+	justify-content: space-around;
+	padding: 20vh;
+	margin: 20vh auto 20vh auto;
+	transition: 2s;
+	transition-property: background-color, transform, box-shadow, text-shadow;
+}
+.heading:hover {
+	width: 90%;
+	background-color: rgb(200,220,256);
+	transition: 1s;
+	text-shadow: 10px 10px 2px rgba(0,0,0,0.2);
+	transform: translate(-10px, -10px);
+	box-shadow: 10px 10px 10px black;
+	text-align: center;
+	justify-content: space-around;
+	padding: 20vh;
+	margin: 20vh auto 20vh auto;
+}
+.heading p {
+	margin: 10vh auto 10vh auto;
+	font-size: 1vw;
+}
+main {
+	text-align: center;
+}
+.text {
+	background: rgb(180,200,256);
+	width: 100vw;
+	font-size: 1vw;
+	text-align: justify;
+	padding: 5%;
+	line-height: 8;
+	margin: 0vh auto 20vh auto;
+
+}
+.parallax_1 {
+	background-image: url(./img/paper.jpeg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.parallax_2 {
+	background-image: url(./img/signup.jpeg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.parallax_3 {
+	background-image: url(./img/study_1.jpeg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.image {
+	margin: 0vh auto 20vh auto;
+
+}
+.image img {
+	border-style: solid;
+	border-width: 2vw;
+	border-color: rgb(200,220,256);
+}
+.contact {
+	background-color: transparent;
+	justify-content: space-around;
+	align-items: center;
+	height: 100%;
+	list-style: none;
+}
+.contact a{
+	text-decoration: none;
+	text-align: center;
+	color: black;
+}
+.contacts {
+	background-color: rgb(180,200,256);	
+	height: 30vh;
+	display: flex;
+	width: 90%;
+	margin: 10vh auto 10vh auto;
+	align-items: center;
+	justify-content: space-around;
+	transition: 0.5s;
+	transition-property: background, box-shadow, transform;
+}
+.contacts:hover {
+	background-color: rgb(180,200,256);	
+	height: 30vh;
+	width: 90%;
+	margin: 10vh auto 10vh auto;
+	align-items: center;
+	justify-content: space-around;
+	transition: 0.5s;
+	transition-property: background, box-shadow, transform;
+	transform: translate(-10px, -10px);
+	box-shadow: 10px 10px 10px black;
+}
+@media only screen and (max-width: 850px) {
+  .text {
+  	font-size: 15px;
+  	line-height: 3;
+  	padding: 10%;
+  }
+  header {
+  	width: 100%;
+  	font-size: 10px;
+  }
+  .heading p{
+  	font-size: 2vw;
+  }
+}
